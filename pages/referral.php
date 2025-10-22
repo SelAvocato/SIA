@@ -13,7 +13,7 @@ include('../includes/navbar.php');
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
                 
-                <!------- Profile Avatar ----------------------------------------------------------------------->
+                <!------- PROFILE AVATAR ------------------------------------------------------------------------------------>
                 <div class="text-center mb-4">
                     <div class="bg-white rounded-circle mx-auto d-flex align-items-center justify-content-center shadow-lg" 
                          style="width: 120px; height: 120px;">
@@ -21,20 +21,20 @@ include('../includes/navbar.php');
                     </div>
                 </div>
 
-                <!------- Heading --------------------------------------------------------------------------------->
+                <!------- HEADING ---------------------------------------------------------------------------------------------->
                 <h2 class="text-center fw-bold mb-5">
                     Refer Friends. Earn Points. Win Together.
                 </h2>
 
-                <!------- Referral Card --------------------------------------------------------------------------->
+                <!------- REFERRAL CARD ---------------------------------------------------------------------------------------->
                 <div class="card border-0 shadow-lg rounded-4" style="background-color: #f5f5f0;">
                     <div class="card-body p-4 p-md-5">
                         <div class="row">
                             
-                            <!------- Left Side - Form --------------------------------------------------------->
+                            <!------- FORM ----------------------------------------------------------------------------------->
                             <div class="col-12 col-md-7 mb-4 mb-md-0">
                                 
-                                <!--- Your Code ---------------------------------------------------------------->
+                                <!--- USER REFERRAL CODE --------------------------------------------------------------------------->
                                 <div class="mb-4">
                                     <label class="form-label fw-bold mb-3 fs-5">
                                         Your code:
@@ -46,7 +46,7 @@ include('../includes/navbar.php');
                                     style="font-size: 1.2rem; letter-spacing: 0.2em; background-color: #D9D9D94D;">
                                 </div>
 
-                                <!--- Enter Friend's Code -------------------------------------------------------->
+                                <!--- FRIEND'S CODE --------------------------------------------------------------------->
                                 <div class="mb-4">
                                     <label class="form-label fw-bold mb-3 fs-5"">
                                         Enter your friend's code:
@@ -57,7 +57,7 @@ include('../includes/navbar.php');
                                     style="font-size: 1.2rem; letter-spacing: 0.2em; background-color: #D9D9D94D;">
                                 </div>
 
-                                <!--- Confirm Button ------------------------------------------------------------>
+                                <!--- CONFIRM BUTTON ------------------------------------------------------------------------->
                                 <div class="float-end">
                                     <button type="submit" 
                                             class="btn text-muted border-0 rounded-3 px-5 py-2" style="background-color: #F1B24A;">
@@ -67,18 +67,16 @@ include('../includes/navbar.php');
 
                             </div>
 
-                            <!------- Right Side - Gift Image ------------------------------------------------->
+                            <!--- GIFT IMAGE --------------------------------------------------------------------------->
                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
                                 <img src="../img/gift.png" 
                                      alt="Gift Boxes" 
                                      class="img-fluid" 
                                      style="max-width: 300px;">
                             </div>
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

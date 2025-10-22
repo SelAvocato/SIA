@@ -6,13 +6,13 @@ include('../includes/navbar.php');
 
 <div class="container-fluid px-4 py-4" style="background-color: #f5f5f0; min-height: 100vh;">
     
-    <!------- Page Title ----------------------------------------------------------------------------------------->
+    <!--------------------------- PAGE TITLE --------------------------------------------------------------------------------------->
     <h2 class="fw-bold mb-4" style="color: #003631;">Transaction History</h2>
 
-    <!------- Filters Section ------------------------------------------------------------------------------------>
+    <!--------------------------- FILTERS SECTION ---------------------------------------------------------------------------------->
     <div class="row mb-4">
         
-        <!--- Transaction Type Filter ---------------------------------------------------------------------------->
+        <!----------------------- TRANSACTION TYPE FILTER -------------------------------------------------------------------------->
         <div class="col-lg-3">
             <div class="input-group">
                 <span class="input-group-text bg-white border-0">
@@ -27,7 +27,7 @@ include('../includes/navbar.php');
             </div>
         </div>
 
-        <!--- Quick Date Filters --------------------------------------------------------------------------------->
+        <!----------------------- QUICK DATE FILTERS ------------------------------------------------------------------------------->
         <div class="col-lg-2">
             <button class="btn text-muted btn-light w-100 border-0">Last 30 Days</button>
         </div>
@@ -38,7 +38,7 @@ include('../includes/navbar.php');
             <button class="btn text-muted btn-light w-100 border-0">0 Year</button>
         </div>
 
-        <!--- Custom Date Range ----------------------------------------------------------------------------------->
+        <!----------------------- CUSTOM DATE RANGES -------------------------------------------------------------------------------->
         <div class="col-lg-2">
             <div class="input-group">
                 <input type="text" class="form-control border-0 bg-white" placeholder="From Date">
@@ -57,12 +57,12 @@ include('../includes/navbar.php');
         </div>
     </div>
 
-    <!------- Export Button -------------------------------------------------------------------------------------->
+    <!--------------------------- EXPORT BUTTON ------------------------------------------------------------------------------------>
     <div class="text-end mb-3">
         <a href="#" class="text-decoration-none fw-semibold" style="color: #003631;">Export to CSV/PDF</a>
     </div>
 
-    <!------- Transaction Table ---------------------------------------------------------------------------------->
+    <!--------------------------- TRANSACTION TABLE -------------------------------------------------------------------------------->
     <div class="card border-1 shadow-sm px-3">
         <div class="card-body">
             <div class="table-responsive">
@@ -78,7 +78,7 @@ include('../includes/navbar.php');
                     </thead>
                     <tbody>
                         
-                        <!--- TRANSACTIONS --------------------------------------------------------->
+                        <!------- TRANSACTIONS ------------------------------------------------------------------------------------->
                         <tr class="align-middle table-secondary mb-3">
                             <td class="px-4 my-3 rounded-start-4">
                                 <i class="bi bi-arrow-up-right text-danger fs-4"></i>

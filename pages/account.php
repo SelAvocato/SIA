@@ -167,7 +167,7 @@ include('../includes/navbar.php');
 
             <!------------------- ADD ACCOUNT -------------------------------------------------------------------------------------->
             <button class="btn w-100 my-2" style="background-color: #F1B24A;">
-                <i class="bi bi-plus-lg">   </i> Add Account
+                Manage Accounts
             </button>
         </div>
 

@@ -221,7 +221,7 @@ include('../includes/navbar.php');
                             <h5 class="modal-title fw-semibold mb-0">Add or Remove Account</h5>
                         </div>
 
-                        <!-- Body -->
+                        <!-- BODY ------------------------------------------------------------------------------------------>
                         <div class="modal-body rounded-bottom-3" style="background-color: #D9D9D9 ;">
                             <!-- ADD ACCOUNT BUTTON ------------------------------------------------------------------------------------------>
                             <button class="btn w-100 mb-3 d-flex justify-content-between align-items-center bg-white rounded-4 border-0 shadow-sm py-3 px-3"
@@ -277,7 +277,7 @@ include('../includes/navbar.php');
                 <div class="modal-dialog modal-dialog-centered" style="max-width: 410px;">
                     <div class="modal-content rounded-4 border-0 shadow">
                     
-                        <!-- Header -->
+                        <!-- HEADER ------------------------------------------------------------------------------------------>
                         <div class="modal-header d-flex align-items-center" style="background-color: #003631; color: white;">
                             <button class="btn text-white me-2 p-0" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#manageAccountsModal" style="font-size: 1.2rem;">
                                 <i class="bi bi-chevron-left"></i>
@@ -285,10 +285,10 @@ include('../includes/navbar.php');
                             <h5 class="modal-title mb-0 fw-semibold">Show or Hide Account</h5>
                         </div>
 
-                        <!-- Body -->
+                        <!-- BODY ------------------------------------------------------------------------------------------>
                         <div class="modal-body rounded-bottom-3" style="background-color: #D9D9D9;">
 
-                            <!-- Saving Accounts Section -->
+                            <!-- SAVING ACCOUNTS ------------------------------------------------------------------------------------------>
                             <div class="bg-white p-3 mb-3 rounded-4 shadow-sm">
                                 <div class="fw-semibold small mb-2">Saving Accounts</div>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -305,7 +305,7 @@ include('../includes/navbar.php');
                                 </div>
                             </div>
 
-                                <!-- Checking Accounts Section -->
+                                <!-- CHECKING ACCOUNTS ------------------------------------------------------------------------------------------>
                             <div class="bg-white p-3 mb-2 rounded-4 shadow-sm">
                                 <div class="fw-semibold small mb-2">Checking Accounts</div>
                                 <div class=" d-flex justify-content-between align-items-center ">
@@ -365,7 +365,7 @@ include('../includes/navbar.php');
             <div class="modal fade" id="addAccountModal" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered" style="max-width: 400px;">
                     <div class="modal-content rounded-4 border-0 shadow">
-                        <!-- Header -->
+                        <!-- HEADER ------------------------------------------------------------------------------------------>
                         <div class="modal-header rounded-top-4 d-flex align-items-center" style="background-color:#003631; color:white;">
                             <button class="btn text-white me-2 p-0" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#selectAccountTypeModal" style="font-size:1.3rem; line-height:1;">
                                 <i class="bi bi-arrow-left"></i>
@@ -373,28 +373,28 @@ include('../includes/navbar.php');
                             <h5 class="modal-title fw-semibold mb-0">Add Account</h5>
                         </div>
 
-                        <!-- Body -->
+                        <!-- BODY ------------------------------------------------------------------------------------------>
                         <div class="modal-body rounded-bottom-3" style="background-color:#D9D9D9;">
 
-                            <!-- Account Type -->
+                            <!-- ACCOUNT TYPE ------------------------------------------------------------------------------------------>
                             <div class="mb-3 bg-light rounded-4 p-3 shadow-sm">
                                 <label class="form-label fw-semibold text-dark mb-1 ms-2">Account Type</label>
                                 <input type="text" class="form-control border-1 border-secondary rounded-3 bg-body-secondary" value="Savings Account" readonly style="color:#333;">
                             </div>
 
-                            <!-- Account Number -->
+                            <!-- ACCOUNT NUMBER ------------------------------------------------------------------------------------------>
                             <div class="mb-3 bg-light rounded-4 p-3 shadow-sm">
                                 <label class="form-label fw-semibold text-dark mb-2 ms-2">Account Number</label>
                                 <input type="text" class="form-control border-1 border-secondary rounded-3 mb-4 py-2" placeholder="Enter account number">
 
-                                <!-- Preferred Name -->
+                                <!-- PREFERRED NAME ------------------------------------------------------------------------------------------>
                                 <label class="form-label fw-semibold text-dark mb-2 ms-2">Preferred Name 
                                     <span class="text-muted fw-normal fst-italic">(Optional)</span>
                                 </label>
                                 <input type="text" class="form-control border-1 border-secondary rounded-3 py-2" placeholder="Enter name">
                             </div>
 
-                            <!-- Terms and Conditions -->
+                            <!-- TERMS AND CONDITIONS ------------------------------------------------------------------------------------------>
                             <div class="text-center mb-3">
                                 <input class="form-check-input me-2" type="checkbox" id="termsCheck">
                                 <label class="form-check-label small" for="termsCheck">
@@ -402,7 +402,7 @@ include('../includes/navbar.php');
                                 </label>
                             </div>
 
-                            <!-- Add Button -->
+                            <!-- ADD BUTTON ------------------------------------------------------------------------------------------>
                             <div class="text-center">
                                 <button class="btn w-75 text-white fw-bold fs-5 py-2 rounded-3" style="background-color:#003631;">
                                     Add

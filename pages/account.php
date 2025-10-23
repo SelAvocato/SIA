@@ -170,58 +170,96 @@ include('../includes/navbar.php');
                 Manage Accounts
             </button>
 
-            <!-- MANAGE ACCOUNTS MODAL ------------------------------------------------------------------------------------------------->
+            <!-- MANAGE ACCOUNTS POP UP ------------------------------------------------------------------------------------------------->
             <div class="modal fade" id="manageAccountsModal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content rounded-4 border-0">
-                        <div class="modal-header" style="background-color: #003631; color: white;">
-                            <h5 class="modal-title">Manage Accounts</h5>
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 410px;">
+                    <div class="modal-content rounded-4 border-0 shadow">
+                        <!-- HEADER ------------------------------------------------------------------------------------------>
+                        <div class="modal-header rounded-top-4" style="background-color:#003631; color:white;">
+                            <h5 class="modal-title fw-semibold">Manage Accounts</h5>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                         </div>
-                        <div class="modal-body bg-light p-4">
-                            <button class="btn w-100 mb-3 d-flex align-items-center justify-content-between shadow-sm"
-                            data-bs-toggle="modal" data-bs-target="#addRemoveAccountModal" data-bs-dismiss="modal"
-                            style="background-color: #f9f9f3;">
-                            <span><i class="bi bi-plus-square fs-4 me-2"></i>Add or Remove Account</span>
-                            <small class="text-muted">›</small>
-                            </button>
 
-                            <button class="btn w-100 d-flex align-items-center justify-content-between shadow-sm"
-                            data-bs-toggle="modal" data-bs-target="#showHideAccountModal" data-bs-dismiss="modal"
-                            style="background-color: #f9f9f3;">
-                            <span><i class="bi bi-eye-slash fs-4 me-2"></i>Show or Hide Account</span>
-                            <small class="text-muted">›</small>
+                        <!-- BODY ------------------------------------------------------------------------------------------>
+                        <div class="modal-body p-4" style="background-color: #D9D9D9;">
+                            <!-- ADD OR REMOVE ------------------------------------------------------------------------------------------>
+                            <button class="btn w-100 mb-3 py-3 bg-white rounded-4 text-start border-0 shadow-sm" 
+                                    data-bs-toggle="modal" data-bs-target="#addRemoveAccountModal" data-bs-dismiss="modal">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-plus-square fs-3 ms-2 me-3 text-dark"></i>
+                                    <div>
+                                    <div class="fw-semibold text-dark">Add or Remove Account</div>
+                                    <small class="text-muted">Add or remove your accounts</small>
+                                    </div>
+                                </div>
+                                </button>
+
+                                <!-- SHOW OR HIDE ------------------------------------------------------------------------------------------>
+                                <button class="btn w-100 py-3 bg-white rounded-4 text-start border-0 shadow-sm"
+                                        data-bs-toggle="modal" data-bs-target="#showHideAccountModal" data-bs-dismiss="modal">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-eye-slash fs-3 ms-2 me-3 text-dark"></i>
+                                    <div>
+                                        <div class="fw-semibold text-dark">Show or Hide Account</div>
+                                        <small class="text-muted">Select which accounts to display</small>
+                                    </div>
+                                </div>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- ADD / REMOVE ACCOUNT MODAL ----------------------------------------------------------------------->
+            <!-- ADD / REMOVE ACCOUNT POP UP ----------------------------------------------------------------------->
             <div class="modal fade" id="addRemoveAccountModal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content rounded-4 border-0">
-                        <div class="modal-header" style="background-color: #003631; color: white;">
-                            <button class="btn text-white me-2" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#manageAccountsModal">
-                                ←
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 410px;">
+                    <div class="modal-content rounded-4 border-0 shadow">
+                        <!-- HEADER ------------------------------------------------------------------------------------------>
+                        <div class="modal-header rounded-top-4 d-flex align-items-center" style="background-color:#003631; color:white;">
+                            <button class="btn text-white me-2 p-0" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#manageAccountsModal" style="font-size:1.3rem; line-height:1;">
+                                <i class="bi bi-arrow-left"></i>
                             </button>
-                            <h5 class="modal-title">Add or Remove Account</h5>
+                            <h5 class="modal-title fw-semibold mb-0">Add or Remove Account</h5>
                         </div>
-                        <div class="modal-body bg-light">
-                            <button class="btn w-100 mb-3 d-flex justify-content-between align-items-center shadow-sm"
-                                style="background-color: #f9f9f3;" data-bs-toggle="modal" data-bs-target="#selectAccountTypeModal" data-bs-dismiss="modal">
-                                <span><i class="bi bi-plus-lg me-2"></i>Add Account</span>
-                                <i class="bi bi-chevron-right"></i>
+
+                        <!-- Body -->
+                        <div class="modal-body" style="background-color: #D9D9D9 ;">
+                            <!-- ADD ACCOUNT BUTTON ------------------------------------------------------------------------------------------>
+                            <button class="btn w-100 mb-3 d-flex justify-content-between align-items-center bg-white rounded-4 border-0 shadow-sm py-3 px-3"
+                                    data-bs-toggle="modal" data-bs-target="#selectAccountTypeModal" data-bs-dismiss="modal">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-plus-square fs-4 me-3 text-dark"></i>
+                                    <span class="fw-semibold text-dark">Add Account</span>
+                                </div>
+                                <i class="bi bi-chevron-right fs-5 text-dark"></i>
                             </button>
 
-                            <p class="fw-semibold text-muted ms-1">Saving Accounts</p>
-                            <div class="p-3 mb-2 bg-white rounded-3 d-flex justify-content-between align-items-center shadow-sm">
-                                <div>
-                                    <i class="bi bi-wallet2 me-2"></i><strong>Juan Dela Cruz</strong><br>
-                                    <small class="text-muted">143824123098</small>
+                            <!-- SAVING ACCOUNTS ------------------------------------------------------------------------------------------>
+                            <p class="fw-semibold text-muted mb-2 ms-1">Saving Accounts</p>
+                            <div class="bg-white rounded-4 p-3 mb-3 shadow-sm d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-wallet2 fs-4 me-3 text-dark"></i>
+                                    <div>
+                                        <div class="fw-semibold text-dark">Juan Dela Cruz</div>
+                                        <small class="text-muted">143824123098</small>
+                                    </div>
                                 </div>
                                 <button class="btn btn-link text-danger p-0" data-bs-toggle="modal" data-bs-target="#deleteAccountModal" data-bs-dismiss="modal">
-                                    <i class="bi bi-dash-circle fs-5"></i>
+                                    <i class="bi bi-dash-circle fs-4"></i>
+                                </button>
+                            </div>
+
+                            <!-- CHECKING ACCOUTNS ------------------------------------------------------------------------------------------>
+                            <p class="fw-semibold text-muted mb-2 ms-1">Checking Accounts</p>
+                            <div class="bg-white rounded-4 p-3 mb-1 shadow-sm d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-wallet2 fs-4 me-3 text-dark"></i>
+                                    <div>
+                                        <div class="fw-semibold text-dark">Juan Dela Cruz</div>
+                                        <small class="text-muted">143824123098</small>
+                                    </div>
+                                </div>
+                                <button class="btn btn-link text-danger p-0" data-bs-toggle="modal" data-bs-target="#deleteAccountModal" data-bs-dismiss="modal">
+                                    <i class="bi bi-dash-circle fs-4"></i>
                                 </button>
                             </div>
                         </div>
@@ -229,9 +267,10 @@ include('../includes/navbar.php');
                 </div>
             </div>
 
-            <!-- SHOW / HIDE ACCOUNT MODAL -------------------------------------------------------------------------------->
+
+            <!-- SHOW / HIDE ACCOUNT POP UP -------------------------------------------------------------------------------->
             <div class="modal fade" id="showHideAccountModal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 410px;">
                     <div class="modal-content rounded-4 border-0">
                         <div class="modal-header" style="background-color: #003631; color: white;">
                             <button class="btn text-white me-2" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#manageAccountsModal">
@@ -254,34 +293,51 @@ include('../includes/navbar.php');
                 </div>
             </div>
 
-            <!-- SELECT ACCOUNT TYPE MODAL ---------------------------------------------------------------------------------->
+            <!-- SELECT ACCOUNT TYPE POP UP ---------------------------------------------------------------------------------->
             <div class="modal fade" id="selectAccountTypeModal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content rounded-4 border-0">
-                        <div class="modal-header" style="background-color: #003631; color: white;">
-                            <button class="btn text-white me-2" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#addRemoveAccountModal">←</button>
-                            <h5 class="modal-title">Select Account Type</h5>
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 410px;">
+                    <div class="modal-content rounded-4 border-0 shadow">
+                        <!-- HEADER ------------------------------------------------------------------------------------------>
+                        <div class="modal-header rounded-top-4 d-flex align-items-center" style="background-color:#003631; color:white;">
+                            <button class="btn text-white me-2 p-0" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#addRemoveAccountModal" style="font-size:1.3rem; line-height:1;">
+                                <i class="bi bi-arrow-left"></i>
+                            </button>
+                            <h5 class="modal-title fw-semibold mb-0">Select Account Type</h5>
                         </div>
-                        <div class="modal-body bg-light">
-                            <button class="btn w-100 mb-2 shadow-sm" style="background-color: #f9f9f3;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">Savings Account</button>
-                            <button class="btn w-100 mb-2 shadow-sm" style="background-color: #f9f9f3;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">Checking Account</button>
-                            <button class="btn w-100 mb-2 shadow-sm" style="background-color: #f9f9f3;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">Loan Account</button>
-                            <button class="btn w-100 shadow-sm" style="background-color: #f9f9f3;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">Credit Card</button>
+
+                        <!-- BODY ------------------------------------------------------------------------------------------>
+                        <div class="modal-body" style="background-color: #D9D9D9;">
+                            <button class="btn w-100 mb-3 shadow-sm rounded-4 text-start fw-semibold" style="background-color:#f9f9f3; color:#003631; padding:0.9rem 1rem;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">
+                                Savings Account
+                            </button>
+
+                            <button class="btn w-100 mb-3 shadow-sm rounded-4 text-start fw-semibold" style="background-color:#f9f9f3; color:#003631; padding:0.9rem 1rem;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">
+                                Checking Account
+                            </button>
+
+                            <button class="btn w-100 mb-3 shadow-sm rounded-4 text-start fw-semibold" style="background-color:#f9f9f3; color:#003631; padding:0.9rem 1rem;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">
+                            Loan Account
+                            </button>
+
+                            <button class="btn w-100 shadow-sm rounded-4 text-start fw-semibold" style="background-color:#f9f9f3; color:#003631; padding:0.9rem 1rem;" data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">
+                                Credit Card
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- ADD ACCOUNT MODAL ------------------------------------------------------------------------------------------>
+
+            <!-- ADD ACCOUNT POP UP ------------------------------------------------------------------------------------------>
             <div class="modal fade" id="addAccountModal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 410px;">
                     <div class="modal-content rounded-4 border-0">
                         <div class="modal-header" style="background-color: #003631; color: white;">
                             <button class="btn text-white me-2" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#selectAccountTypeModal">←</button>
                             <h5 class="modal-title">Add Account</h5>
                         </div>
-                        <div class="modal-body bg-light">
-                            <div class="mb-3">
+                        <div class="modal-body" style="background-color: #D9D9D9;">
+                            <div class="mb-3 bg-light rounded-3 p-2">
                                 <label class="form-label">Account Type</label>
                                 <input type="text" class="form-control bg-white border-0" value="Savings Account" readonly>
                             </div>
@@ -303,7 +359,7 @@ include('../includes/navbar.php');
                 </div>
             </div>
 
-            <!-- DELETE ACCOUNT MODAL ---------------------------------------------------------------------------------------------->
+            <!-- DELETE ACCOUNT POP UP ---------------------------------------------------------------------------------------------->
             <div class="modal fade" id="deleteAccountModal" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content rounded-4 border-0">

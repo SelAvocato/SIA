@@ -45,7 +45,11 @@ include('../includes/navbar.php');
 
                             <!--- AMOUNT ------------------------------------------------------------------------------------------->
                             <div class="mb-3">
-                                <label class="form-label fw-semibold" style="color: #003631;">Amount:</label>
+                                <div class="d-flex justify-content-between ">
+                                    <label class="form-label fw-semibold" style="color: #003631;">Amount:</label>
+                                    <!-- WILL ONLY SHOW IF NOT SUFFICIENT BALANCE(remove the comment below to be visible) -------------------------->
+                                    <!--- <label class="text-danger">No sufficient balance</label> -------------------------------------------------> 
+                                </div>
                                 <input type="number" class="form-control" placeholder="600" style="background-color: #e8e8df; border: none; border-radius: 8px;">
                             </div>
 

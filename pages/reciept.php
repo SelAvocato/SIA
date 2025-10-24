@@ -75,7 +75,7 @@ include('../includes/navbar.php');
         <div class="justify-content-between text-end mt-5">
             <button class="btn me-2" 
                     style="background-color: #bba27bff; border-radius: 8px;">
-                Print Reciept
+                Download Reciept
             </button>
             <button class="btn" 
                     style="background-color: #F1B24A; border-radius: 8px;">

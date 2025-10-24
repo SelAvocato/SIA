@@ -2,18 +2,18 @@
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
-<div class="d-flex flex-column p-3" style="width: 260px; background-color: #D9D9D94D; min-height: calc(100vh - 56px);">
-    <h5 class="fw-semibold mb-4">Transactions</h5>
+<div class="d-flex flex-column px-5 pt-5 shadow-sm border border-1" style="width: 300px; background-color: #D9D9D94D; min-height: calc(100vh - 56px);">
+    <h5 class="fw-bold mb-4 pt-5 fs-4 text-center">Transactions</h5>
 
     <a href="withdraw.php"
-       class="btn w-100 text-start mb-2 d-flex align-items-center <?php echo ($current_page == 'withdraw.php') ? 'text-white' : 'text-dark'; ?>"
-       style="background-color: <?php echo ($current_page == 'withdraw.php') ? '#003631' : '#ffffff'; ?>;">
-        <i class="bi bi-wallet2 me-2"></i> Withdraw
+       class="btn w-75 mb-3 ms-4 border border-2 me-1 d-flex align-items-center shadow-sm"
+       style="background-color: <?php echo ($current_page == 'withdraw.php') ? '#00363126' : '#ffffff'; ?>;">
+        <i class="ms-2 me-2 py-1"><img src="..\..\img\withdraw-image.png" style="width: 22px;"></i> Withdraw
     </a>
 
     <a href="deposit.php"
-       class="btn w-100 text-start d-flex align-items-center <?php echo ($current_page == 'deposit.php') ? 'text-white' : 'text-dark'; ?>"
-       style="background-color: <?php echo ($current_page == 'deposit.php') ? '#003631' : '#ffffff'; ?>;">
-        <i class="bi bi-arrow-down-circle me-2"></i> Deposit
+       class="btn w-75 mb-3 ms-4 border border-2 me-1 d-flex align-items-center shadow-sm"
+       style="background-color: <?php echo ($current_page == 'deposit.php') ? '#00363126' : '#ffffff'; ?>;">
+        <i class="ms-2 me-2 py-1"><img src="..\..\img\deposit-image.png" style="width: 22px;"></i> Deposit
     </a>
 </div>

@@ -3,8 +3,9 @@
 <div class="d-flex flex-grow-1">
     <?php include '../includes/sidebar.php'; ?>
     <div class="flex-grow-1 bg-white p-5" >
-        <div class="rounded-4 p-5 shadow-sm mx-auto" style="max-width: 900px; background-color: #D9D9D94D;" >
+        <div class="rounded-4 border border-1 px-5 py-3 shadow-sm mx-auto" style="max-width: 900px; background-color: #D9D9D94D;" >
             <h4 class="fw-semibold mb-4">Withdraw</h4>
+            <hr class="w-100">
             <form>
                 <div class="row mb-3">
                     <div class="col-md-6">

@@ -368,7 +368,8 @@ include('../includes/navbar.php');
                     <div class="modal-content rounded-4 border-0 shadow">
                         <!-- HEADER ------------------------------------------------------------------------------------------>
                         <div class="modal-header rounded-top-4 d-flex align-items-center" style="background-color:#003631; color:white;">
-                            <button class="btn text-white me-2 p-0" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#selectAccountTypeModal" style="font-size:1.3rem; line-height:1;">
+                            <button class="btn text-white me-2 p-0" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#addRemoveAccountModal" style="font-size:1.3rem; line-height:1;">
+                                <!-- JUST CHANGE THE data-bs-target="#addRemoveAccountModal" TO data-bs-target="#selectAccountTypeModal" IF YOU WANT TO SHOW THE SELECT ACCOUNT POP UP ---->
                                 <i class="bi bi-arrow-left"></i>
                             </button>
                             <h5 class="modal-title fw-semibold mb-0">Add Account</h5>

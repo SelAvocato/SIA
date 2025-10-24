@@ -225,7 +225,8 @@ include('../includes/navbar.php');
                         <div class="modal-body rounded-bottom-3" style="background-color: #D9D9D9 ;">
                             <!-- ADD ACCOUNT BUTTON ------------------------------------------------------------------------------------------>
                             <button class="btn w-100 mb-3 d-flex justify-content-between align-items-center bg-white rounded-4 border-0 shadow-sm py-3 px-3"
-                                    data-bs-toggle="modal" data-bs-target="#selectAccountTypeModal" data-bs-dismiss="modal">
+                                    data-bs-toggle="modal" data-bs-target="#addAccountModal" data-bs-dismiss="modal">
+                                    <!-- JUST CHANGE THE data-bs-target="#addAccountModal" TO data-bs-target="#selectAccountTypeModal" IF YOU WANT TO SHOW THE SELECT ACCOUNT POP UP ---->
                                 <div class="d-flex align-items-center ms-2">
                                     <i class="bi bi-plus-square fs-3 me-3 ms-2 text-dark"></i>
                                     <span class="fw-semibold text-dark ms-2">Add Account</span>

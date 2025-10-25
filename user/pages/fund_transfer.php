@@ -1,11 +1,11 @@
 <?php 
 $pageTitle = "Fund Transfer";
-include('../includes/header.php');
-include('../includes/navbar.php');
+include('../layout/header.php');
+include('../layout/navbar.php');
 ?>
 <!------------------------------- BACKGROUND IMAGE --------------------------------------------------------------------------------->
 <div class="min-vh-100 d-flex align-items-center justify-content-center"
-    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/trees_background.jpg'); 
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/trees_background.jpg'); 
     background-size: cover; 
     background-position: center;">
 
@@ -19,7 +19,7 @@ include('../includes/navbar.php');
                         <div class=" mb-4">
                             <div class="d-flex text-center align-items-center justify-content-center mb-3">
                                 <div class="bg-dark rounded-circle me-2" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;">
-                                    <img src="../img/logo.png" class="img-fluid" alt="Logo" style="max-height: 100%;">
+                                    <img src="../../img/logo.png" class="img-fluid" alt="Logo" style="max-height: 100%;">
                                 </div>
                                 <div class="text-start">
                                     <h5 class="fw-bold fs-5 mb-0">EVERGREEN</h5>
@@ -94,4 +94,4 @@ include('../includes/navbar.php');
         </div>
     </div>
 </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('../layout/footer.php'); ?>

@@ -1,11 +1,11 @@
 <?php 
 $pageTitle = "Referral";
-include('../includes/header.php');
-include('../includes/navbar.php');
+include('../layout/header.php');
+include('../layout/navbar.php');
 ?>
 
 <div class="min-vh-100 d-flex align-items-center justify-content-center"
-    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/trees_background.jpg'); 
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/trees_background.jpg'); 
     background-size: cover; 
     background-position: center;" >
 
@@ -69,7 +69,7 @@ include('../includes/navbar.php');
 
                             <!--- GIFT IMAGE --------------------------------------------------------------------------->
                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
-                                <img src="../img/gift.png" 
+                                <img src="../../img/gift.png" 
                                      alt="Gift Boxes" 
                                      class="img-fluid" 
                                      style="max-width: 300px;">
@@ -82,4 +82,4 @@ include('../includes/navbar.php');
     </div>
 </div>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../layout/footer.php'); ?>

@@ -7,7 +7,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
     <!--------------------------- LOGO --------------------------------------------------------------------------------------------->
     <a class="navbar-brand d-flex align-items-center" href="../index.php">
-      <img src="../img/logo.png" alt="Evergreen Logo" width="40" height="40" class="me-2">
+      <img src="../../img/logo.png" alt="Evergreen Logo" width="40" height="40" class="me-2">
       <span class="fw-bold">EVERGREEN</span>
     </a>
 

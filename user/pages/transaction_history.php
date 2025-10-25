@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Transaction History";
-include('../includes/header.php');
-include('../includes/navbar.php');
+include('../layout/header.php');
+include('../layout/navbar.php');
 ?>
 
 <div class="container-fluid px-4 py-4" style="background-color: #f5f5f0; min-height: 100vh;">
@@ -158,4 +158,4 @@ include('../includes/navbar.php');
 
 </div>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../layout/footer.php'); ?>

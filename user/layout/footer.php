@@ -5,7 +5,7 @@
             <!-- COLUMN 1 ------------------------------------------------------------------------------------------>
             <div class="col-md-3">
                 <div class="d-flex align-items-center mb-3">
-                <img src="/img/logo.png" alt="Evergreen Logo" width="30" height="30" class="me-2">
+                <img src="../../img/logo.png" alt="Evergreen Logo" width="30" height="30" class="me-2">
                 <span class="fw-bold fs-5">EVERGREEN</span>
                 </div>
                 <p class="small">

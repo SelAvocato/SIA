@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Account";
-include('../includes/header.php');
-include('../includes/navbar.php');
+include('../layout/header.php');
+include('../layout/navbar.php');
 ?>
 
 <div class="container-fluid ">
@@ -581,4 +581,4 @@ include('../includes/navbar.php');
     </div>
 </div>
 <small class="mt-4 ms-3 mb-2 text-muted">Last login: October 12, 2025, 10:45 AM</small>
-<?php include('../includes/footer.php'); ?>
+<?php include('../layout/footer.php'); ?>

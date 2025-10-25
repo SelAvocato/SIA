@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Reciept";
-include('../includes/header.php');
-include('../includes/navbar.php');
+include('../layout/header.php');
+include('../layout/navbar.php');
 ?>
 
 <div class="container py-5">
@@ -85,4 +85,4 @@ include('../includes/navbar.php');
     </div>
 </div>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../layout/footer.php'); ?>

@@ -3,7 +3,7 @@ include('../layout/header.php');
 ?>
 
 <p class="ms-3" style="font-weight: 500;">Step 2 of 3: Security & Credentials</p>
-<div class="d-flex flex-grow-1 mb-3 border border-1 rounded-4 border-subtle shadow-sm">
+<div class="d-flex flex-grow-1 mb-5 border border-1 rounded-4 border-subtle shadow-sm">
     <?php include '../layout/sidebar.php'; ?>
     <div class="flex-grow-1 px-5 py-4 rounded-end-4" style="background-color: #D9D9D94D;">
 
@@ -66,7 +66,7 @@ include('../layout/header.php');
                         </div>
 
                         <div class="mt-2" style="font-size: 14px;">
-                            <span>Didn’t receive the code? <a href="#" class="text-decoration-none fw-semibold text-dark">Resend Code</a></span><br>
+                            <span>Didn’t receive the code? <a href="#Resend-Code" class="text-decoration-none fw-semibold text-dark">Resend Code</a></span><br>
                             <span>(You can request a new code in 30 seconds)</span>
                         </div>
                     </div>

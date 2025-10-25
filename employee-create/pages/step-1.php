@@ -3,7 +3,7 @@ include('../layout/header.php');
 ?>
 
 <p class="ms-3" style="font-weight: 500;">Step 1 of 3: Customer Create Account</p>
-<div class="d-flex flex-grow-1 mb-3 border border-1 rounded-4 border-subtle shadow-sm">
+<div class="d-flex flex-grow-1 mb-5 border border-1 rounded-4 border-subtle shadow-sm">
     <?php include '../layout/sidebar.php'; ?>
     <div class="flex-grow-1 px-5 py-4 rounded-end-4" style="background-color: #D9D9D94D;">
 
